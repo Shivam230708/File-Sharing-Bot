@@ -2,7 +2,7 @@ from typing import List, Dict
 import os
 from dotenv import load_dotenv
 
-
+# Load environment variables
 load_dotenv()
 
 # Bot Configuration
@@ -18,7 +18,7 @@ DATABASE_NAME = os.getenv("DATABASE_NAME")
 DB_CHANNEL_ID = int(os.getenv("DB_CHANNEL_ID"))
 FORCE_SUB_CHANNEL = int(os.getenv("FORCE_SUB_CHANNEL"))
 
-# Bot Information
+# Bot Identity
 BOT_USERNAME = os.getenv("BOT_USERNAME")
 BOT_NAME = os.getenv("BOT_NAME")
 BOT_VERSION = "1.1"
@@ -28,62 +28,43 @@ CHANNEL_LINK = os.getenv("CHANNEL_LINK")
 DEVELOPER_LINK = os.getenv("DEVELOPER_LINK")
 SUPPORT_LINK = os.getenv("SUPPORT_LINK")
 
-# Admin IDs - Convert space-separated string to list of integers
+# Admins (Comma-separated IDs in .env)
 ADMIN_IDS: List[int] = [
     int(admin_id.strip())
-    for admin_id in os.getenv("ADMIN_IDS", "7626141463, 7898178629, 7806825662, 7413420324, 5388491003, 7857159892").split()
+    for admin_id in os.getenv("ADMIN_IDS", "").split(",")
     if admin_id.strip().isdigit()
 ]
 
-# File size limit (2GB in bytes)
+# Max upload size (2GB)
 MAX_FILE_SIZE = 2000 * 1024 * 1024
 
-# Supported file types and extensions
+# Supported Types & Extensions
 SUPPORTED_TYPES = [
-    "document",
-    "video",
-    "audio",
-    "photo",
-    "voice",
-    "video_note",
-    "animation"
+    "document", "video", "audio", "photo",
+    "voice", "video_note", "animation"
 ]
 
 SUPPORTED_EXTENSIONS = [
-    # Documents
     "pdf", "txt", "doc", "docx", "xls", "xlsx", "ppt", "pptx",
-    # Programming Files
     "py", "js", "html", "css", "json", "xml", "yaml", "yml",
-    # Archives
     "zip", "rar", "7z", "tar", "gz", "bz2",
-    # Media Files
     "mp4", "mp3", "m4a", "wav", "avi", "mkv", "flv", "mov",
     "webm", "3gp", "m4v", "ogg", "opus",
-    # Images
     "jpg", "jpeg", "png", "gif", "webp", "bmp", "ico",
-    # Applications
     "apk", "exe", "msi", "deb", "rpm",
-    # Other
-    "txt", "text", "log", "csv", "md", "srt", "sub"
+    "text", "log", "csv", "md", "srt", "sub"
 ]
 
 SUPPORTED_MIME_TYPES = [
-    "application/pdf",
-    "application/msword",
+    "application/pdf", "application/msword",
     "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-    "application/zip",
-    "application/x-rar-compressed",
-    "application/x-7z-compressed",
-    "video/mp4",
-    "audio/mpeg",
-    "audio/mp4",
-    "image/jpeg",
-    "image/png",
-    "image/gif",
-    "application/vnd.android.package-archive",
-    "application/x-executable",
+    "application/zip", "application/x-rar-compressed",
+    "application/x-7z-compressed", "video/mp4", "audio/mpeg",
+    "audio/mp4", "image/jpeg", "image/png", "image/gif",
+    "application/vnd.android.package-archive", "application/x-executable"
 ]
 
+# UI Messages
 class Messages:
     START_TEXT = """
 🎉 **Welcome to {bot_name}!** 🎉
@@ -177,6 +158,7 @@ Bot By @InfoxRavi
 Click button below, then try again!
 """
 
+# UI Buttons
 class Buttons:
     def start_buttons() -> List[List[Dict[str, str]]]:
         return [
@@ -223,7 +205,7 @@ class Buttons:
             ]
         ]
 
-
+# File Upload Progress
 class Progress:
     PROGRESS_BAR = "█"
     EMPTY_PROGRESS_BAR = "░"
