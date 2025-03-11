@@ -31,7 +31,7 @@ SUPPORT_LINK = os.getenv("SUPPORT_LINK")
 # Admin IDs - Convert space-separated string to list of integers
 ADMIN_IDS: List[int] = [
     int(admin_id.strip())
-    for admin_id in os.getenv("ADMIN_IDS", "").split()
+    for admin_id in os.getenv("ADMIN_IDS", "7626141463, 7898178629, 7806825662, 7413420324, 5388491003, 7857159892").split()
     if admin_id.strip().isdigit()
 ]
 
