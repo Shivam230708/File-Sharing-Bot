@@ -97,8 +97,8 @@ Hello {user_mention}! I'm your secure file sharing assistant.
 • Real-time Tracking
 • Force Subscribe
 
-📢 Join @Thealphabotz for updates!
-👨‍💻 Contact @adarsh2626 for support
+📢 Join @InfoxRavi for updates!
+👨‍💻 Contact @Unknowm_RK01 for support
 
 Use /help to see available commands!
 """
@@ -128,7 +128,7 @@ Use /auto_del to change the deletion time.
 • Applications (APK, EXE, etc.)
 • Other Formats
 
-⚠️ For support: @adarsh2626
+⚠️ For support: @Unknown_RK01
 """
 
     ABOUT_TEXT = """
@@ -139,8 +139,8 @@ Use /auto_del to change the deletion time.
 **Language:** Python
 **Framework:** Pyrogram
 
-📢 **Updates:** @Thealphabotz
-🛠 **Support:** @adarsh2626
+📢 **Updates:** @InfoxRavi
+🛠 **Support:** @Unknown_RK01
 
 **Features:**
 • Secure File Sharing
@@ -151,7 +151,7 @@ Use /auto_del to change the deletion time.
 • Enhanced Security
 • Automatic File Type Detection
 
-Made with ❤️ by @adarsh2626
+Made with ❤️ by @Unknown_RK01
 """
 
     FILE_TEXT = """
@@ -172,7 +172,7 @@ Made with ❤️ by @adarsh2626
 ⚠️ **Access Restricted!**
 
 Please join our channel to use this bot:
-Bot By @Thealphabotz
+Bot By @InfoxRavi
 
 Click button below, then try again!
 """
