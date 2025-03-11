@@ -98,7 +98,7 @@ Hello {user_mention}! I'm your secure file sharing assistant.
 • Force Subscribe
 
 📢 Join @InfoxRavi for updates!
-👨‍💻 Contact @Unknowm_RK01 for support
+👨‍💻 Contact @Unknown_RK01 for support
 
 Use /help to see available commands!
 """
@@ -135,7 +135,7 @@ Use /auto_del to change the deletion time.
 ℹ️ **About {bot_name}**
 
 **Version:** `{version}`
-**Developer:** @adarsh2626
+**Developer:** @Unknown_RK01
 **Language:** Python
 **Framework:** Pyrogram
 
