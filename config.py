@@ -75,8 +75,6 @@ Hello {user_mention}! I'm your secure file sharing assistant.
 • Secure File Sharing
 • Unique Download Links
 • Multiple File Types Support
-• Real-time Tracking
-• Force Subscribe
 
 📢 Join @InfoxRavi for updates!
 👨‍💻 Contact @Unknown_RK01 for support
@@ -125,7 +123,6 @@ Use /auto_del to change the deletion time.
 
 **Features:**
 • Secure File Sharing
-• Force Subscribe
 • Admin Controls
 • Real-time Stats
 • Multiple File Types
