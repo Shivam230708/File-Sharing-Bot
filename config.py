@@ -138,7 +138,7 @@ Use /help to see available commands!
 • Forward files & reply with `/batch`.  
 
 
-⚠️ **Need Help?** Contact [@Unknown_RK01](https://t.me/Unknown_RK01)  
+⚠️ **Need Help?** Contact [@Unknown_RK01](https://t.me/Unknown_RK01/?text=Hey,%20I%20need%20help%20with%20the%20bot;%20BOT_USERNAME=%20@FileStorexpBot)  
 """
 
     ABOUT_TEXT = """
