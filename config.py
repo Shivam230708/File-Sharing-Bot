@@ -107,7 +107,6 @@ Hello {user_mention}! I'm your secure file sharing assistant.
 • Unique Download Links
 • Multiple File Types Support
 • Real-time Tracking
-• Force Subscribe
 
 📢 Join @BotVerseRavi for updates!
 👨‍💻 Contact @Unknown_RK01 for support
